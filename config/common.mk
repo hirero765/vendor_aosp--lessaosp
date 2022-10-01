@@ -1,3 +1,6 @@
+# Allow vendor/extra to override any property by setting it first
+$(call inherit-product, vendor/addons/config.mk)
+
 # Branding
 $(call inherit-product, vendor/aosp/config/branding.mk)
 
