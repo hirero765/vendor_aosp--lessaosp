@@ -127,6 +127,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_PACKAGES += \
     QuickAccessWallet
 
+#  Mantle
+PRODUCT_PACKAGES += \
+    Mantle
+
 # GameSpace
 PRODUCT_PACKAGES += \
     GameSpace
